@@ -4,6 +4,8 @@
   <figcaption><em>Screenshot of program results for the word yellow with 6 clusters.</em></figcaption>
 </figure>
 
+# Brief Description
+
 SeisMundos is a language analysis application that uses the Levenshtein distance algorithm to find the etymology of a given English word across different languages. The application uses the Global Word Cluster (GWC) library to generate clusters of languages based on their similarity. The user can enter an English word and the desired number of clusters, and the application will generate a graph showing the distribution of the word across languages. The user can also save the graph and reopen it in a separate window for further analysis.
 
 The application is built using PyQt6, which provides a graphical user interface for the application. The main window contains entry fields for the search term and cluster number, as well as options for selecting the Levenshtein distance or another distance metric. The main window displays the graph and options for saving and reopening the graph in a separate window.
