@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+pandas
+geopandas
+Levenshtein
+transliterate
+unihandecode
+translit_me
+ai4bharat
+polyglot
+google-cloud-translate
+PyQt6
