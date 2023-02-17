@@ -16,7 +16,7 @@ import geopandas as geo
 import os
 
 # COMMAND LINE
-os.system("export GOOGLE_APPLICATION_CREDENTIALS='credentials/sixth-flag-377423-42563eb55ebc.json'")
+os.system("export GOOGLE_APPLICATION_CREDENTIALS='./credentials/sixth-flag-377423-42563eb55ebc.json'")
 
 languages = ["English", "Spanish", "Farsi", "French", "Portuguese", "German", "Swedish", "Norwegian", "Arabic", 
     "Latin", "Polish", "Russian", "Romanian", "Afrikaans", "Albanian", "Bengali", "Bulgarian", 

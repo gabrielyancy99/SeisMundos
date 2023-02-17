@@ -5,6 +5,8 @@ import sys
 import global_word_cluster as gwc
 import os
 
+os.system("export GOOGLE_APPLICATION_CREDENTIALS='./credentials/sixth-flag-377423-42563eb55ebc.json'")
+
 class SaveButton(QPushButton):
     def __init__(self, graphname):
         super().__init__("Save Graph", graphname)
