@@ -35,3 +35,11 @@ Enter in the world you want to analyze in English as well as the number of clust
 The run_main function, found in the Global Word Cluster package, or global_word_cluster.py, is one of the main functions of the project. It takes three arguments: term, which is the word to be clustered, num_clust, which is the desired number of clusters, and method, which is the clustering algorithm to be used. The function first checks if there is a file called 'unclustered_words.npz' that contains unclustered words. If the file exists, it loads the file as a DataFrame and checks if the first word in the DataFrame is the same as the input term. If the word is the same, the function performs clustering using the provided clustering algorithm and compiles a data structure. If the word is different, the function translates the word into other languages and creates a DataFrame with the translated words. Then, it performs clustering and compiles a data structure. In both cases, the function generates a dendrogram and a world plot that shows the clusters on a world map.
 
 The project also includes other functions such as translate_text, which uses the Google Translate API to translate a given text into a specified language, and cluster_words, which performs clustering on a given DataFrame using the specified clustering algorithm. The project is written in Python and uses various open-source libraries, especially for the transliteration of translations provided by the Google Translate API.
+
+# Troubleshooting
+
+If you get an error that reads:
+
+> google.auth.exceptions.DefaultCredentialsError: Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started
+
+Try going into the code for either of the python files and copying the string at the top in os.system(). Run this string, without the outer "", in your command line terminal. Then try to run the application again.
