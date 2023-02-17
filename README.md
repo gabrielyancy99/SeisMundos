@@ -26,9 +26,9 @@ To open the preconfigured application built with PyQt enter:
 
 Enter in the world you want to analyze in English as well as the number of clusters you want to view and the method you wish to use for looking at similarity between words. Then hit the button to generate plots. Four plots are generated each time: a dendrogram, a world map with cluster color coding, a map zoomed in on Europe, and a map zoomed in on Asia. If you close any of the graphs, you can reopen them by double clicking on the graph from the main application window. You can also hit the 'Save Graph' button on any of the graph windows to ensure a copy of the graph is stored locally before running the application again. If you don't save a copy, the local version of the graph will be rewritten when the application is run again. 
 
-##### What's Happening Under the Hood
+###### What's Happening Under the Hood
 
-The copy will be in the same folder as the repository and will have a name with an added long numerical extension indicating the last modified time of the copied grpah. This is done because each run of the application will have a unique time, therefore each saved/copied graph will automatically have a unique filename. Each time you run the program a copy of the graphs are stored locally, but these copies are overwritten each time to conserve memory.
+> The copy will be in the same folder as the repository and will have a name with an added long numerical extension indicating the last modified time of the copied grpah. This is done because each run of the application will have a unique time, therefore each saved/copied graph will automatically have a unique filename. Each time you run the program a copy of the graphs are stored locally, but these copies are overwritten each time to conserve memory.
 
 ## Repository Description
 
