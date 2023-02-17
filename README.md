@@ -20,7 +20,7 @@ To run the application locally first clone the repository to your personal machi
 
 To open the preconfigured application built with PyQt enter:
 
-`python SeisMundos_GUI.py` | `python3 SeisMundos_GUI.py` | double click `SeisMundos_GUI.py`'
+`python SeisMundos_GUI.py` | `python3 SeisMundos_GUI.py` | double click `SeisMundos_GUI.py`
 
 ## Program Description
 
