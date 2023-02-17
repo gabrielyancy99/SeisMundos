@@ -1,5 +1,4 @@
 # SeisMundos - Etymology Approximation with Levenshtein Distance
-
 <figure>
   <img src="/example/seismundos_example.png">
   <figcaption><em>Screenshot of program results for the word yellow with 6 clusters.</em></figcaption>
